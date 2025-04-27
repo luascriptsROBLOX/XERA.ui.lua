@@ -31,7 +31,7 @@ end
 
 function WindowHandler:CreateTab(opts)
     -- Forward to TabHandler
-    local TabHandler = loadstring(game:HttpGet("https://raw.githubusercontent.com/yourgithubrepo/XeraUI/main/Components/TabHandler.lua"))()
+    local TabHandler = loadstring(game:HttpGet("https://raw.githubusercontent.com/luascriptsROBLOX/XERA.ui.lua/refs/heads/main/Components/TabHandler.lua"))()
     return TabHandler.new(self.MainFrame, opts)
 end
 
