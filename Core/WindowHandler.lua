@@ -2,7 +2,7 @@
 local WindowHandler = {}
 WindowHandler.__index = WindowHandler
 
-local ThemeHandler = loadstring(game:HttpGet("https://raw.githubusercontent.com/yourgithubrepo/XeraUI/main/Core/ThemeHandler.lua"))()
+local ThemeHandler = loadstring(game:HttpGet("https://raw.githubusercontent.com/luascriptsROBLOX/XERA.ui.lua/refs/heads/main/Components/Theme.lua"))()
 
 function WindowHandler.new(options)
     local self = setmetatable({}, WindowHandler)
